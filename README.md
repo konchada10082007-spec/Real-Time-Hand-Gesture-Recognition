@@ -42,8 +42,7 @@ The system works in real-time using a webcam and supports detection of both left
 
 ## 📂 Project Structure
 real-time-finger-counter/
-│── main.py
-│── hand_landmarker.task
+│── Hands.py
 │── README.md
 ---
 
@@ -55,7 +54,7 @@ cd real-time-finger-counter
 2️⃣ Install Dependencies
 pip install opencv-python mediapipe
 3️⃣ Run the Project
-python main.py
+python Hands.py
 Press Q to exit the application.
 
 ## 📦 Requirements
